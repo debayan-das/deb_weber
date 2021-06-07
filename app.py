@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=['POST','GET'])
 def index():
-	return render_template('MyMailProjForm.html')
+	return render_template('Form.html')
 
 
 @app.route('/sent', methods=['POST','GET'])
