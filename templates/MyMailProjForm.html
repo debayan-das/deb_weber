@@ -1,32 +1,67 @@
 <html>
 <head>
-	<title>	WEEK DAY </title>
+	<title>
+		Flask
+	</title>
 </head>
+<body bgcolor="#00b300">
 
-<body background="https://img.etimg.com/thumb/width-640,height-480,imgsize-539734,resizemode-1,msid-69156527/markets/stocks/news/blanket-ban-on-cryptocurrency-may-prove-to-be-futile-claim-experts/gettyimages-865457032.jpg">
 	
-	<font color = '#ee00ee'>
-	<center><h1>Debayan's Week Day Calculator</h1></center>
+	<center><h1>Hamdan's KIIT SGPA Calculator</h1></center>
+	<br><br><br>
 
-	<center><h2>Enter DD MM YYYY.</center>
+	<center><h2>Enter marks of each subject.<br>
+		Out of 100<br><br>
+		If you wish to ignore any subject for GPA Calculation, Leave it blank.</h2></center>
 	<br><br><br>
 
 	<form action="/sent" method="POST">
-		
-		<label for = Day> Day : 
-		<input type="number" name="Day" id="Day" required>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		
 
-		<label for = Month> Month :
-		<input type="number" name="Month" id="Month" required>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<table>
+			
+			<tr>
+				<td>AFL : </td>
+				<td><input type="number" name="AFL" /></td>
+			</tr>
+			<tr>
+				<td>COA : </td>
+				<td><input type="number" name="COA" /></td>
+			</tr>
+			<tr>
+				<td>DBMS : </td>
+				<td><input type="number" name="DBMS" /></td>
+			</tr>
+			<tr>
+				<td>OS : </td>
+				<td><input type="number" name="OS" /></td>
+			</tr>
+			<tr>
+				<td>PDC : </td>
+				<td><input type="number" name="PDC" /></td>
+			</tr>
+			<tr>
+				<td>WT : </td>
+				<td><input type="number" name="WT" /></td>
+			</tr>
+			<tr>
+				<td>B_COM : </td>
+				<td><input type="number" name="B_COM" /></td>
+			</tr>
+			<tr>
+				<td>DBMS_LAB : </td>
+				<td><input type="number" name="DBMS_LAB" /></td>
+			</tr>
+			<tr>
+				<td>OS_LAB : </td>
+				<td><input type="number" name="OS_LAB" /></td>
+			</tr>
+			<tr>
+				<td>WT_LAB : </td>
+				<td><input type="number" name="WT_LAB" /></td>
+			</tr>
 
-		<label for = Year> Year :
-		<input type="number" name="Year" id="Year" required>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-
-		<h1><input type="submit" value="SUBMIT"></h1>
+		</table>
+		<p><input type="submit" value="submit" /></p>
 	</form>
-	</font>
 </body>
 </html>
