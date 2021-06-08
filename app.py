@@ -2,12 +2,12 @@ from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
-@app.route('/',methods=['POST','GET'])
+@app.route('/', methods=['POST','GET'])
 def index():
 	return render_template('Form.html')
 
 
-@app.route('/sent', methods=['POST','GET'])
+@app.route('/result', methods=['POST','GET'])
 def login():
 	
 	day = int(request.form['Day'])
