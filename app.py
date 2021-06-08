@@ -25,7 +25,7 @@ def login():
 	
 
 	if day < 1 or day > 31 or month < 1 or month > 12 or year < 0 or (month in MONTH30 and day == 31) or (month == 2 and day > DAY2):
-		return f"<center><h1><br><br><br>Invalid Date</h1></center>"
+		return f"<center><h1><br><br><br>||Invalid Date||</h1></center>"
 
 	wd=""   #week-day
 	d=6
